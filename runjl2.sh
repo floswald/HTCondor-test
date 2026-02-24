@@ -5,4 +5,4 @@ source ~/.bashrc
 
 echo "this job will run a julia script"
 
-julia script.jl
+/home/florianoswald/.juliaup/bin/julia $(SUBMIT_DIR)/script.jl

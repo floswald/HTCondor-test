@@ -5,4 +5,4 @@ source ~/.bashrc
 
 echo "this job will run make julia print hi"
 
-julia -e "println(\"hi from the julia command line\")"
+/home/florianoswald/.juliaup/bin/julia -e "println(\"hi from the julia command line\")"
