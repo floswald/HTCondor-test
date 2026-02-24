@@ -1,22 +1,3 @@
-# HTCondor-test
-
-
-## run a julia job
-
-script file
-
-```bash
-#!/bin/bash
-# file name: runjl.sh
-
-echo "this job will run a julia program"
-
-julia -e "println(\"hi from julia\")"
-```
-
-submit file
-
-```bash
 # jl.sub -- simple julia
 executable              = runjl.sh
 
@@ -32,11 +13,3 @@ request_memory          = 512M
 request_disk            = 1G
 
 queue
-```
-
-
-to submit: 
-
-```bash
-condor_submit jl.sub
-
