@@ -1,0 +1,16 @@
+# jl.sub -- simple julia with script
+executable              = runjl3.sh
+transfer_input_files    = script3.jl, Project.toml, Manifest.toml
+
+log                     = runjl2.log
+output                  = runjl2.out
+error                   = runjl2.err
+
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+
+request_cpus            = 1
+request_memory          = 512M
+request_disk            = 1G
+
+queue
