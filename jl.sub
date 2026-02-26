@@ -1,8 +1,6 @@
 # jl.sub -- simple julia
 executable              = runjl.sh
 
-USER_JOB_WRAPPER=condor_job_wrapper.sh
-
 log                     = runjl.log
 output                  = runjl.out
 error                   = runjl.err

@@ -1,8 +1,6 @@
 # jl.sub -- simple julia with script
 executable              = runjl2.sh
-
-USER_JOB_WRAPPER=condor_job_wrapper.sh
-
+transfer_input_files    = script.jl
 
 log                     = runjl2.log
 output                  = runjl2.out
