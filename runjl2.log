@@ -1,0 +1,252 @@
+000 (045.000.000) 2026-02-24 16:34:01 Job submitted from host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=schedd_2854_2f62>
+...
+040 (045.000.000) 2026-02-24 16:34:06 Started transferring input files
+	Transferring to host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=slot1_1_2922_9030_6>
+...
+040 (045.000.000) 2026-02-24 16:34:06 Finished transferring input files
+...
+001 (045.000.000) 2026-02-24 16:34:07 Job executing on host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=startd_2854_2f62>
+	SlotName: slot1_1@PCPEM51677
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_3405488"
+	Cpus = 1
+	Disk = 1052031
+	GPUs = 0
+	Memory = 512
+...
+006 (045.000.000) 2026-02-24 16:34:08 Image size of job updated: 92
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (045.000.000) 2026-02-24 16:34:08 Started transferring output files
+...
+040 (045.000.000) 2026-02-24 16:34:08 Finished transferring output files
+...
+005 (045.000.000) 2026-02-24 16:34:08 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	324  -  Run Bytes Sent By Job
+	143  -  Run Bytes Received By Job
+	324  -  Total Bytes Sent By Job
+	143  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16  1048576   1052031 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        0      512       512 
+	   TimeExecute (s)      :        1                    
+	   TimeSlotBusy (s)     :        2                    
+...
+000 (046.000.000) 2026-02-24 16:35:56 Job submitted from host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=schedd_2854_2f62>
+...
+040 (046.000.000) 2026-02-24 16:36:01 Started transferring input files
+	Transferring to host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=slot1_1_2922_9030_7>
+...
+040 (046.000.000) 2026-02-24 16:36:01 Finished transferring input files
+...
+001 (046.000.000) 2026-02-24 16:36:02 Job executing on host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=startd_2854_2f62>
+	SlotName: slot1_1@PCPEM51677
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_3405563"
+	Cpus = 1
+	Disk = 1052031
+	GPUs = 0
+	Memory = 512
+...
+006 (046.000.000) 2026-02-24 16:36:04 Image size of job updated: 108
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (046.000.000) 2026-02-24 16:36:04 Started transferring output files
+...
+040 (046.000.000) 2026-02-24 16:36:04 Finished transferring output files
+...
+005 (046.000.000) 2026-02-24 16:36:04 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	374  -  Run Bytes Sent By Job
+	157  -  Run Bytes Received By Job
+	374  -  Total Bytes Sent By Job
+	157  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16  1048576   1052031 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        0      512       512 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        3                    
+...
+000 (047.000.000) 2026-02-26 10:21:08 Job submitted from host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=schedd_2854_2f62>
+...
+040 (047.000.000) 2026-02-26 10:21:11 Started transferring input files
+	Transferring to host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=slot1_1_2922_9030_8>
+...
+040 (047.000.000) 2026-02-26 10:21:11 Finished transferring input files
+...
+001 (047.000.000) 2026-02-26 10:21:12 Job executing on host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=startd_2854_2f62>
+	SlotName: slot1_1@PCPEM51677
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_3483843"
+	Cpus = 1
+	Disk = 1052031
+	GPUs = 0
+	Memory = 512
+...
+006 (047.000.000) 2026-02-26 10:21:13 Image size of job updated: 120
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (047.000.000) 2026-02-26 10:21:13 Started transferring output files
+...
+040 (047.000.000) 2026-02-26 10:21:13 Finished transferring output files
+...
+005 (047.000.000) 2026-02-26 10:21:13 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	374  -  Run Bytes Sent By Job
+	139  -  Run Bytes Received By Job
+	374  -  Total Bytes Sent By Job
+	139  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16  1048576   1052031 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        0      512       512 
+	   TimeExecute (s)      :        1                    
+	   TimeSlotBusy (s)     :        2                    
+...
+000 (048.000.000) 2026-02-26 10:27:56 Job submitted from host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=schedd_2854_2f62>
+...
+040 (048.000.000) 2026-02-26 10:28:02 Started transferring input files
+	Transferring to host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=slot1_1_2922_9030_9>
+...
+040 (048.000.000) 2026-02-26 10:28:02 Finished transferring input files
+...
+001 (048.000.000) 2026-02-26 10:28:03 Job executing on host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=startd_2854_2f62>
+	SlotName: slot1_1@PCPEM51677
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_3484057"
+	Cpus = 1
+	Disk = 1052031
+	GPUs = 0
+	Memory = 512
+...
+006 (048.000.000) 2026-02-26 10:28:05 Image size of job updated: 100
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (048.000.000) 2026-02-26 10:28:05 Started transferring output files
+...
+040 (048.000.000) 2026-02-26 10:28:05 Finished transferring output files
+...
+005 (048.000.000) 2026-02-26 10:28:05 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	374  -  Run Bytes Sent By Job
+	271  -  Run Bytes Received By Job
+	374  -  Total Bytes Sent By Job
+	271  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16  1048576   1052031 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        0      512       512 
+	   TimeExecute (s)      :        2                    
+	   TimeSlotBusy (s)     :        3                    
+...
+000 (049.000.000) 2026-02-26 10:29:38 Job submitted from host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=schedd_2854_2f62>
+...
+040 (049.000.000) 2026-02-26 10:29:43 Started transferring input files
+	Transferring to host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=slot1_1_2922_9030_10>
+...
+040 (049.000.000) 2026-02-26 10:29:43 Finished transferring input files
+...
+001 (049.000.000) 2026-02-26 10:29:44 Job executing on host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=startd_2854_2f62>
+	SlotName: slot1_1@PCPEM51677
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_3484143"
+	Cpus = 1
+	Disk = 1052031
+	GPUs = 0
+	Memory = 512
+...
+006 (049.000.000) 2026-02-26 10:29:44 Image size of job updated: 100
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+040 (049.000.000) 2026-02-26 10:29:44 Started transferring output files
+...
+040 (049.000.000) 2026-02-26 10:29:44 Finished transferring output files
+...
+005 (049.000.000) 2026-02-26 10:29:45 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	260  -  Run Bytes Sent By Job
+	257  -  Run Bytes Received By Job
+	260  -  Total Bytes Sent By Job
+	257  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       16  1048576   1052031 
+	   GPUs                 :                           0 
+	   Memory (MB)          :        0      512       512 
+	   TimeExecute (s)      :        0                    
+	   TimeSlotBusy (s)     :        1                    
+...
+000 (050.000.000) 2026-02-26 10:41:57 Job submitted from host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=schedd_2854_2f62>
+...
+040 (050.000.000) 2026-02-26 10:42:08 Started transferring input files
+	Transferring to host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=slot1_1_2922_9030_11>
+...
+040 (050.000.000) 2026-02-26 10:42:08 Finished transferring input files
+...
+001 (050.000.000) 2026-02-26 10:42:09 Job executing on host: <130.192.254.65:9618?addrs=130.192.254.65-9618&alias=PCPEM51677&noUDP&sock=startd_2854_2f62>
+	SlotName: slot1_1@PCPEM51677
+	AvailableGPUs = {  }
+	CondorScratchDir = "/var/lib/condor/execute/dir_3487353"
+	Cpus = 1
+	Disk = 1052031
+	GPUs = 0
+	Memory = 512
+...
+006 (050.000.000) 2026-02-26 10:42:14 Image size of job updated: 370136
+	362  -  MemoryUsage of job (MB)
+	370136  -  ResidentSetSize of job (KB)
+...
+040 (050.000.000) 2026-02-26 10:42:14 Started transferring output files
+...
+040 (050.000.000) 2026-02-26 10:42:14 Finished transferring output files
+...
+005 (050.000.000) 2026-02-26 10:42:14 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:04, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	10378  -  Run Bytes Sent By Job
+	44751  -  Run Bytes Received By Job
+	10378  -  Total Bytes Sent By Job
+	44751  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       69  1048576   1052031 
+	   GPUs                 :                           0 
+	   Memory (MB)          :      362      512       512 
+	   TimeExecute (s)      :        5                    
+	   TimeSlotBusy (s)     :        6                    
+...
