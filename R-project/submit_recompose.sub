@@ -1,0 +1,39 @@
+# HTCondor Submit File for BusLocations Recompose
+# This job recomposes chunk files into a single large data.table
+# Run this AFTER the step_ahead jobs complete
+
+# Docker universe
+universe                = docker
+docker_image            = buslocations:latest
+
+# Executable and arguments
+executable              = /data/scripts/run_recompose.R
+arguments               = /data/chunks
+
+# File transfer - transfer all chunk files from step_ahead job
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+
+# Transfer all .Rds files from the chunks directory
+# Adjust this path based on where step_ahead job outputs are located
+transfer_input_files    = entry/output/chunks/
+
+# Resource requirements (may need significant RAM)
+request_cpus            = 2
+request_memory          = 64GB
+request_disk            = 200GB
+
+# Log files
+output                  = recompose_$(Cluster).out
+error                   = recompose_$(Cluster).err
+log                     = recompose_$(Cluster).log
+
+# Job classification
++JobBatchName           = "BusLocations_Recompose"
+
+# Email notification (optional - uncomment and set your email)
+# notification           = Complete
+# notify_user            = your.email@domain.com
+
+# Queue single recompose job
+queue
